@@ -137,8 +137,9 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin-bottom: 10px;
   cursor: pointer;
+		
 }
 
 .button1 {font-size: 15px;}
