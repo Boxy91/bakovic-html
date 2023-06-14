@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+font-family:'Roboto', sans-serif;
+
+
+}
+
+h1{
+text-align:center;
+margin:30px 0 50px;
+
+}
+
+.gallery{
+    margin:10px 50px;
+    text-align:center;
+
+}
+
+.gallery img{
+    padding: 5px;
+    filter:grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+ ul li{
+                display: inline;
+                
+            }
+            h1{
+               display: inline;
+                float: left;
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                padding: 10px;
+            }
+            nav{
+                padding: 12px;
+                float:right;
+            }
+            a:hover{
+                color:orange;
+                transition: 0.2s ease-out;
+            }
+            li a{
+                color: black;
+                text-decoration: none;
+                padding: 8px 16px;
+                font-family: 'Montserrat', sans-serif;
+            }
+           h3{
+                position: absolute;
+                font-size: 70px;
+                color: black;
+                font-family: 'Roboto', sans-serif;
+                left: 40px;
+                top: 30px;
+            }
+            header{
+              
+                height: 0px;
+            }
+
+.footerc h2{
+    text-align: left;
+}
+.footerc{
+    background-color: orange;
+    padding-bottom:30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.footer{
+    width: 80%;
+    height:30vh;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 auto;
+    padding-top: 4rem;
+}
+.footerh{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    
+}
+.footerh h2{
+    margin-bottom: 20px;
+    
+}
+.footerh a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footerh a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+}
+.form h2{
+    margin-bottom: 20px;
+    
+}
+
+#email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem:
+}
+#emailb{
+  width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #F9423D;
+    outline: none;
+    border: none;
+    color:white;
+    font-size: 1rem;
+    
+}
+#emailb:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    transition: all 0.4s ease-out;
+}
+
+
+.green-box {
+  position: absolute;
+  z-index: 2; 
+color: black;
+
+  left: 90px;
+  top: -10px;
+  
+}
+.gray-box {
+  position: absolute;
+  z-index: 3; 
+  
+ 
+
+  left: 1270px;
+  top: 37px;
+font-size: 20px;
+    padding: 0px;
+    text-align: left;
+    color:black;
+}
+
+header{
+    height: 100px;
+    
+}
+
+.cc{
+    width: 80%;
+    height: 100px;
+    background-color: orange;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+      position: absolute;
+  z-index: 2; 
+    left: 190px;
+}
+
+#kk{
+  padding-top: 30px;
+    text-align: center;
+    color: white;
+}
